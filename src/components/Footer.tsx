@@ -1,7 +1,7 @@
 function Footer() {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="bg-neutral-primary-soft">
+    <footer className="bg-neutral-primary-soft" id="contact">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <hr className="my-6 border-default sm:mx-auto lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
