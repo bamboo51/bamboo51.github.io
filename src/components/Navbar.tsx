@@ -4,7 +4,7 @@ function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="border-b p-4 sticky">
+    <nav className="border-b p-4 sticky top-0 bg-white z-50">
       <div className="flex items-center justify-between">
         <div className="font-bold"><a href="#top">Phongwit's Web</a></div>
         <button
