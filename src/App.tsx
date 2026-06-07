@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Education from "./sections/Education";
+import ProjectSection from "./sections/Project";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         </div>
       </section>
       <Education />
+      <ProjectSection />
       <Footer />
     </>
   );
