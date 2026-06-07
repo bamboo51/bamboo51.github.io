@@ -34,7 +34,7 @@ const projects: Project[] = [
 
 export default function ProjectSection() {
   return (
-    <section className="py-10 mx-auto max-w-4xl px-6" id="projects">
+    <section className="py-10 mx-auto max-w-4xl px-6 scroll-mt-16" id="projects">
       <h1 className="text-4xl font-bold mb-2">Projects</h1>
       <p className="text-gray-500 text-sm mb-10">A few things I've built and shipped</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
