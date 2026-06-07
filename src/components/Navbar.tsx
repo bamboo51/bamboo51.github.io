@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="border-b p-4 sticky">
       <div className="flex items-center justify-between">
-        <div className="font-bold">Pai's WEB</div>
+        <div className="font-bold"><a href="#top">Phongwit's Web</a></div>
         <button
           className="md:hidden text-xl"
           onClick={() => setOpen(!open)}
