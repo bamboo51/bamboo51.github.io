@@ -10,7 +10,7 @@ on:
 
 concurrency:
   group: pages
-  cancel-in_progress: true
+  cancel-in-progress: true
 
 jobs:
   verify:
