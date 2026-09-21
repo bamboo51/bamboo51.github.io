@@ -9,7 +9,10 @@ function Footer() {
             © {currentYear} Phongwit Srikokcharoen (Pai). All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
-            <a href="https://www.linkedin.com/in/phongwit-srikokcharoen-431591301/" className="text-body hover:text-heading ms-5">
+            <a
+              href="https://www.linkedin.com/in/phongwit-srikokcharoen-431591301/"
+              className="text-body hover:text-heading ms-5"
+            >
               <svg
                 className="w-5 h-5"
                 aria-hidden="true"
@@ -23,7 +26,10 @@ function Footer() {
               </svg>
               <span className="sr-only">LinkedIn</span>
             </a>
-            <a href="https://www.github.com/bamboo51" className="text-body hover:text-heading ms-5">
+            <a
+              href="https://www.github.com/bamboo51"
+              className="text-body hover:text-heading ms-5"
+            >
               <svg
                 className="w-5 h-5"
                 aria-hidden="true"
