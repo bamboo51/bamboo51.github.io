@@ -6,8 +6,12 @@
   "homepage": "https://bamboo51.github.io",
   "scripts": {
     "dev": "vite",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint . --max-warnings=0",
+    "typecheck": "tsc -b --pretty false",
+    "check": "bun run format:check && bun run lint && bun run typecheck",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {

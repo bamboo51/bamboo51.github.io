@@ -28,13 +28,11 @@ function Education() {
         <div className="relative border-l border-gray-300">
           {educationData.map((item, index) => (
             <div key={index} className="mb-12 ml-6">
-
               {/* Dot */}
               <span className="absolute -left-3 flex items-center justify-center w-6 h-6 bg-gray-600 rounded-full ring-8 ring-white" />
 
               {/* Card */}
               <div className="flex items-start gap-6 bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
-
                 {/* Logo */}
                 <div className="w-16 h-16 flex items-center justify-center bg-gray-100 rounded-lg">
                   <img
@@ -46,17 +44,10 @@ function Education() {
 
                 {/* Content */}
                 <div>
-                  <h3 className="text-xl font-semibold">
-                    {item.title}
-                  </h3>
-                  <p className="text-gray-600">
-                    {item.school}
-                  </p>
-                  <p className="text-sm text-gray-500">
-                    {item.period}
-                  </p>
+                  <h3 className="text-xl font-semibold">{item.title}</h3>
+                  <p className="text-gray-600">{item.school}</p>
+                  <p className="text-sm text-gray-500">{item.period}</p>
                 </div>
-
               </div>
             </div>
           ))}
